@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* SASS 基础教程
+by zdm.net */
+.alert-warning {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+}
+
+ul {
+  font-size: 15px;
+}
+ul li {
+  list-style: none;
+}
+
+/*# sourceMappingURL=style.css.map */

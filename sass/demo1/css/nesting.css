@@ -1,0 +1,25 @@
+.nav {
+  height: 100px;
+}
+.nav ul {
+  margin: 0;
+}
+.nav ul li {
+  float: left;
+  list-style: none;
+  padding: 5px;
+}
+.nav ul a {
+  display: block;
+  color: #333;
+  padding: 5px;
+}
+.nav ul a:hover {
+  background-color: #0d2f7e;
+  color: #fff;
+}
+.nav .nav-text {
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=nesting.css.map */

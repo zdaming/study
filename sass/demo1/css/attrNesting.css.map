@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAK;EAED,WAAM,EAAE,4BAA4B;EACpC,SAAI,EAAE,IAAI;EACV,WAAM,EAAE,MAAM;;;AAIlB,IAAK;EACH,MAAM,EAAE,cAAe;EACrB,WAAI,EAAE,CAAC;EACP,YAAK,EAAE,CAAC",
+"sources": ["../sass/attrNesting.scss"],
+"names": [],
+"file": "attrNesting.css"
+}

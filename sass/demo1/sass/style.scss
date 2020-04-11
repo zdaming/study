@@ -1,0 +1,21 @@
+/* SASS 基础教程
+by zdm.net */
+
+// 白日依山尽
+// 黄河入海流
+
+@mixin alert {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+}
+
+.alert-warning {
+  @include alert;
+}
+
+ul {
+  font-size: 15px;
+  li {
+    list-style: none;
+  }
+}

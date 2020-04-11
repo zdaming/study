@@ -1,0 +1,10 @@
+$primary-color: #1269b5;
+$primary-border: 1px solid $primary-color;
+
+div.box {
+  background-color: $primary-color;
+}
+
+h1.page-header {
+  border: $primary-border;
+}

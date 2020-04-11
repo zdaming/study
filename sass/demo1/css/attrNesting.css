@@ -1,0 +1,13 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.nav {
+  border: 1px solid #000;
+  border-left: 0;
+  border-right: 0;
+}
+
+/*# sourceMappingURL=attrNesting.css.map */
