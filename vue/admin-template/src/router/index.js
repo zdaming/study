@@ -68,30 +68,30 @@ export const constantRoutes = [
  */
 export const asyncRoutes = [
   {
-    path: '/a',
+    path: '/components',
     component: Layout,
-    redirect: '/a/a1',
-    name: 'Test',
+    redirect: '/components/tinymce',
+    name: 'ComponentDemo',
     meta: {
-      title: '测试1',
-      icon: 'lock',
+      title: '组件',
+      icon: 'component',
       roles: ['admin']
     },
     children: [
       {
-        path: 'a1',
-        component: () => import('@/views/test'),
-        name: 'PageTest',
+        path: 'tinymce',
+        component: () => import('@/views/components-demo/tinymce'),
+        name: 'TinymceDemo',
         meta: {
-          title: '测试1-1'
+          title: '富文本'
         }
       },
       {
-        path: 'a2',
-        component: () => import('@/views/test/index2'),
-        name: '测试1-2',
+        path: 'img-upload',
+        component: () => import('@/views/components-demo/img-upload'),
+        name: 'ImgUploadDemo',
         meta: {
-          title: '测试1-2'
+          title: '上传图片'
         }
       }
     ]
@@ -108,7 +108,7 @@ export const asyncRoutes = [
     children: [
       {
         path: 'b1',
-        component: () => import('@/views/test/index2'),
+        component: () => import('@/views/test/index'),
         name: '测试2-1',
         meta: {
           title: '测试2-1'
@@ -116,7 +116,7 @@ export const asyncRoutes = [
       },
       {
         path: 'b2',
-        component: () => import('@/views/test/index2'),
+        component: () => import('@/views/test/index'),
         name: '测试2-2',
         meta: {
           title: '测试2-2'
@@ -136,7 +136,7 @@ export const asyncRoutes = [
     children: [
       {
         path: 'c1',
-        component: () => import('@/views/test/index2'),
+        component: () => import('@/views/test/index'),
         redirect: '/c/c1/c1',
         name: '测试3-1',
         meta: {
@@ -145,7 +145,7 @@ export const asyncRoutes = [
         children: [
           {
             path: 'c1',
-            component: () => import('@/views/test/index2'),
+            component: () => import('@/views/test/index'),
             name: '测试3-1-1',
             meta: {
               title: '测试3-1-1'
@@ -153,7 +153,7 @@ export const asyncRoutes = [
           },
           {
             path: 'c2',
-            component: () => import('@/views/test/index2'),
+            component: () => import('@/views/test/index'),
             name: '测试3-1-2',
             meta: {
               title: '测试3-1-2'
@@ -163,7 +163,7 @@ export const asyncRoutes = [
       },
       {
         path: 'c2',
-        component: () => import('@/views/test/index2'),
+        component: () => import('@/views/test/index'),
         name: '测试3-2',
         meta: {
           title: '测试3-2'
@@ -183,7 +183,7 @@ export const asyncRoutes = [
     children: [
       {
         path: 'd1',
-        component: () => import('@/views/test/index2'),
+        component: () => import('@/views/test/index'),
         name: '测试4-1',
         meta: {
           title: '测试4-1'
@@ -191,7 +191,7 @@ export const asyncRoutes = [
       },
       {
         path: 'd2',
-        component: () => import('@/views/test/index2'),
+        component: () => import('@/views/test/index'),
         name: '测试4-2',
         meta: {
           title: '测试4-2'
@@ -199,7 +199,7 @@ export const asyncRoutes = [
       },
       {
         path: 'd3',
-        component: () => import('@/views/test/index2'),
+        component: () => import('@/views/test/index'),
         name: '测试4-3',
         meta: {
           title: '测试4-3'
@@ -219,7 +219,7 @@ export const asyncRoutes = [
     children: [
       {
         path: 'e1',
-        component: () => import('@/views/test/index2'),
+        component: () => import('@/views/test/index'),
         name: '测试5-1',
         meta: {
           title: '测试5-1'
@@ -227,7 +227,7 @@ export const asyncRoutes = [
       },
       {
         path: 'e2',
-        component: () => import('@/views/test/index2'),
+        component: () => import('@/views/test/index'),
         name: '测试5-2',
         meta: {
           title: '测试5-2'
@@ -235,7 +235,7 @@ export const asyncRoutes = [
       },
       {
         path: 'e3',
-        component: () => import('@/views/test/index2'),
+        component: () => import('@/views/test/index'),
         name: '测试5-3',
         meta: {
           title: '测试5-3'
@@ -243,7 +243,7 @@ export const asyncRoutes = [
       },
       {
         path: 'e4',
-        component: () => import('@/views/test/index2'),
+        component: () => import('@/views/test/index'),
         name: '测试5-4',
         meta: {
           title: '测试5-4'
